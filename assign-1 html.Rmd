@@ -1,0 +1,34 @@
+---
+title: "Assignment 1"
+author: "Carys Hughes"
+date: "14/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Carys Hughes
+__UVic__
+_Blue_
+
+```{r}
+x = c(1,2,3)
+y = c(3,4,5)
+```
+
+```{r}
+data = data.frame(x, y)
+```
+
+```{r}
+write.csv(data, here("student-data.csv"))
+```
+
+```{r}
+read.csv(here("student-data.csv"))
+```
+
+
+
